@@ -33,7 +33,6 @@ class banners(object):
             [!] Ative a opção "Aplicativos menos seguro" para prosseguir.
                                 """+RED+"""(Apenas no gmail)"""+END+"""
                     >> https://myaccount.google.com/lesssecureapps <<
-        [+]Escolha arquivos de texto plano.
 
         """)
 
