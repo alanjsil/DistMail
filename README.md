@@ -1,17 +1,27 @@
 # DistMail
-DistMail foi escrito por Alan Junior Silveira
+DistMail foi escrito por **Alan Junior Silveira**
+
 FERRAMENTA PROJETADA PARA BONS PROPÓSITOS, PENTESTS, NÃO SEJA UM CRIMINOSO!
 
-Só baixá-lo aqui, não confie em outros lugares.
+**Só baixe-o aqui, não confie em outros lugares.**
 
-NOTA: O DistMail suporte oficial somente para portugues do Brasil no momento.
+NOTA: O DistMail tem suporte oficial somente para portugues do Brasil no momento.
 
-# Como instalar
+# COMO INSTALAR
 
+## Clonando
+```
+git clone https://github.com/alanjsil/DistMail.git
+```
+## Rodando
+```
+cd DistMail
 
+python3 distmail
+```
+**VOCE DEVE TER PYTHON 3x**
 
-
-# Isenção de garantia
+# AVISO LEGAL
 
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
 APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
@@ -20,5 +30,8 @@ OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
 THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
 PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
 IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-ALL NECESSARY SERVICING, REPAIR OR CORRECTION. 
-### Tirado da [LICENÇA](LICENSE)
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION. **Tirado da [LICENÇA](LICENSE)**
+
+# Contato
+
+Mande suas sugestões e bugs para iniciative2013@gmail.com
