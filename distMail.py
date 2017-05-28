@@ -7,6 +7,8 @@ __LICENCA__ = "GNU General Public License v3.0"
 import banner
 import emails
 import os
+import time
+import updater
 
 def limpa():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -27,7 +29,7 @@ def main():
     try:
         banner.banners.banner1()
         # Escolhas no menu principal
-        print("[1]GMAIL   [2]OUTLOOK   [3]SAIR")
+        print("[1]GMAIL   [2]OUTLOOK   [3]CHECAR VERSÂO   [4]SAIR")
         try:
 
             escolha = int(input(">>> "))
@@ -39,6 +41,11 @@ def main():
             elif escolha == 2:
                 emails.outlook()
             elif escolha == 3:
+                print(updater.main())
+                time.sleep(2)
+                limpa()
+                main()
+            elif escolha == 4:
                 interromper()
             else:
                 limpa()
