@@ -21,6 +21,13 @@ python3 distmail
 ```
 **VOCE DEVE TER PYTHON 3x**
 
+# FUNCIONAL
+Linux Ubunto
+
+Kali Sana
+
+Debian
+
 # AVISO LEGAL
 
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
