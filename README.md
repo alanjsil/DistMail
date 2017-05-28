@@ -28,6 +28,8 @@ Kali Sana
 
 Debian
 
+Windows (**algumas falhas de gráfico**)
+
 # AVISO LEGAL
 
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
