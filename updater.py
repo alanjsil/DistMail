@@ -5,26 +5,23 @@ __GITHUB__	= "https://github.com/alanjsil/MultiMail"
 __LICENCA__ = "GNU General Public License v3.0"
 
 import subprocess
-import urllib3
-
+import urllib.request
 
 def update_client_version(version):
-    with open("versao.txt", "r") as vnum:
+    with open("versao.txt", "rb") as vnum:
         if vnum.read() != version:
             return True
         else:
             return False
 
-
 def main():
-    version = urllib3.request.urlopen("https://raw.githubusercontent.com/alanjsil/MultiMail/master/versao.txt").read()
+    version = urllib.request.urlopen("https://raw.githubusercontent.com/alanjsil/DistMail/master/versao.txt").read()
     if update_client_version(version) is True:
         subprocess.call(["git", "pull", "origin", "master"])
-        return "[*] Updated to latest version: v{}..".format(version)
+        return "[*] Atualize para a vesão mais recente: v%s."%version.decode("utf-8")
     else:
-        return "[*] You are already up to date with git origin master."
-
+        return "[*] Voce esta com a versão mais atual."
 
 if __name__ == '__main__':
-    print("[*] Checking version information..")
+    print("[*] Checando a versão...")
     print(main())
