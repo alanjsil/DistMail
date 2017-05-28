@@ -2,7 +2,7 @@ __AUTHOR__	= "Getsu"
 __DATE__	= "28/05/2017"
 __VERSION__	= "1.0"
 __GITHUB__	= "https://github.com/alanjsil/MultiMail"
-__LICENÇA__ = "GNU General Public License v3.0"
+__LICENCA__ = "GNU General Public License v3.0"
 
 import banner
 import os
