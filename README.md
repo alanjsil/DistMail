@@ -1,6 +1,8 @@
 # DistMail
 DistMail foi escrito por **Alan Junior Silveira**
 
+DistMail é um script pra se realizar o envio de múltiplos emails a um ou mais endereços, visando economizar o trabalho quando se tem que mandar o mesmo email a mais de uma pessoa.
+
 FERRAMENTA PROJETADA PARA BONS PROPÓSITOS, PENTESTS, NÃO SEJA UM CRIMINOSO!
 
 **Só baixe-o aqui, não confie em outros lugares.**
