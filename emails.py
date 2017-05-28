@@ -118,7 +118,7 @@ def outlook():
         banner.banners.banner1()
 
     # Entrada de senha
-    nome = (email[:len(email) - 10])
+    nome = (email[:len(email) - 12])
     senha = input("Senha de " + nome + ": ")
     limpa()
     try:
