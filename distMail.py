@@ -41,6 +41,7 @@ def main():
             elif escolha == 2:
                 emails.outlook()
             elif escolha == 3:
+                print("[*] Checando a versão...")
                 print(updater.main())
                 time.sleep(2)
                 limpa()
