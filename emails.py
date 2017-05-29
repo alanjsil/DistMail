@@ -9,7 +9,7 @@ import os
 import smtplib
 import time
 
-def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 50, fill = '█'):
+def ProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 50, fill = '█'):
     """
     Call in a loop to create terminal progress bar
     @params:
@@ -105,11 +105,12 @@ def gmail():
     print('\n')
     limpa()
     banner.banners.banner2()
-    print(RED + "INICIANDO O ENVIO DE E-MAILS" + END)
+    print(RED + "                INICIANDO O ENVIO DE E-MAILS\n" + END)
     while x < vezes:
         x += 1
+        ProgressBar(x, vezes)
         smtp.sendmail(email, destino, msg)
-        print('Enviando o %d ° e-mail.' % (x))
+        #print('Enviando o %d ° e-mail.' % (x))
     try:
         banner.banners.conteudo(email, destino, msg)
     except:
@@ -181,11 +182,12 @@ def outlook():
     print('\n')
     limpa()
     banner.banners.banner2()
-    print(RED + "INICIANDO O ENVIO DE E-MAILS" + END)
+    print(RED + "                INICIANDO O ENVIO DE E-MAILS\n" + END)
     while x < vezes:
         x += 1
+        ProgressBar(x, vezes)
         smtp.sendmail(email, destino, msg)
-        print('Enviando o %d ° e-mail.' % (x))
+        # print('Enviando o %d ° e-mail.' % (x))
     try:
         banner.banners.conteudo(email, destino, msg)
     except:
